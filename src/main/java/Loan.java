@@ -23,11 +23,11 @@ public class Loan {
         return borrower;
     }
 
-    public String getDisplayString(){
+    public String getDisplayString() {
         return borrower + ": " + amount;
     }
 
-    public double getProfit(){
-        return amount*interestRate;
+    public double getProfit() {
+        return amount * interestRate;
     }
 }
